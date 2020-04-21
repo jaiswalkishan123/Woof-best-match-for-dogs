@@ -1,0 +1,194 @@
+body {
+  font-family: Montserrat;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+h2 {
+  font-size: 3rem;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.heading1 {
+  font-family: 'Lemon', cursive;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/*navigation bar*/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-LINK {
+  font-size: 1.5rem;
+  font-family: 'Montserrat-Light';
+}
+
+/*DOWNLOAD BUTTON*/
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/*TITLE-IMAGE*/
+.rotate-img {
+  transform: rotate(25deg);
+  height: 30rem;
+  width: 60%;
+  margin: .5rem 0 0 2rem;
+  position: absolute;
+  right: 25%;
+}
+
+/*FEATURES*/
+#features {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  /* z-index: 1;   */
+}
+
+/*FEATURES IMAGES*/
+.feature-icon {
+  color: #ef8172;
+  padding: 2rem;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+/*FEATURED HEADINGS*/
+.featured-text {
+  font-size: 1.5rem;
+  font-family: 'Lemon', cursive;
+  font-weight: bold;
+}
+
+.feature-para {
+  font-size: .7rem;
+  color: #8f8f8f;
+  width: 40%;
+  margin: auto;
+}
+
+.feature {
+  margin: 2.5rem 0 0 0;
+  text-align: center;
+  padding: 10px;
+  line-height: 2;
+}
+
+/*TESTIMONIALS*/
+#testimonials {
+  text-align: center;
+  font-family: 'Lemon', cursive;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/*PRESS SECTION*/
+#press {
+  text-align: center;
+  padding-bottom: 3%;
+  background-color: #ef8172;
+}
+
+.press-icon {
+  width: 10%;
+  margin: 10px 15px 10px 15px;
+}
+
+/* PRICING SECTION */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  text-align: center;
+  padding: 3% 5%;
+}
+
+.pricing-heading {
+  color: black;
+  font-family: 'lemon';
+  width: 100%;
+}
+
+/* CTA-SECTION */
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 5% 10%;
+  line-height: 2;
+}
+
+.cta-header {
+  font-family: lemon;
+  font-size: 2.5rem;
+  color: white;
+  width: 70%;
+  margin: auto;
+}
+
+.cta-btn {
+  margin: 7% 1.5%;
+}
+
+/* FOOTER */
+#footer {
+  margin-top: 10%;
+  text-align: center;
+}
+
+.footer-icons {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.footer-paragraph {
+  font-size: .7rem;
+  color: #8f8f8f;
+}
+
+/* MEDIA-CONTROL */
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .rotate-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
